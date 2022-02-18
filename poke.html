@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>pjs-pokedex</title>
+</head>
+<body>
+    <main>
+
+<section class="pokedex-wrap">
+
+<!-- main pokedex container -->
+<div class="poke-container">
+
+ <!-- this is needed for styling pokedex -->
+<div class="top-gaming-light">
+
+              <!-- large pink circle at the top of pokedex -->
+            <div class="top-gaming-light__pink"></div>
+
+            <!-- three smaller circles at the top -->
+            <div class="top-gaming-light__smaller-lights">
+              <div class="top-gaming-light__red"></div>
+              <div class="top-gaming-light__yellow"></div>
+              <div class="top-gaming-light__green"></div>
+            </div>
+
+</div>
+
+<div class="poke-container__game-container">
+
+<!-- screen border class attribute -->
+<div class="screen-border">
+
+<!-- distorted night vision effect -->
+<div class="distorted-vision-screen">
+
+    
+    <!-- hide and show containers so that it'll show no repeats and will change pokemon every time -->
+                  <div class="main-screen hide">
+                    <div class="screen__header">
+                      <span class="poke-name"></span>
+                      <span class="poke-id"></span>
+                    </div>
+
+                    <!-- description container -->
+                    <div class="screen__description">
+                     
+                        <!-- the type of pokemon from where they originated-->
+                      <div class="stats__types">
+                        <span class="poke-type-one"></span>
+                        <span class="poke-type-two"></span>
+                      </div>
+
+                    <!-- stats of each individual pokemon once they show in screen -->
+                      <div class="screen__stats">
+                        <p class="stats__weight">
+                          weight: <span class="poke-weight"></span>
+                        </p>
+                        <p class="stats__height">
+                          height: <span class="poke-height"></span>
+                        </p>
+                      </div>
+                    
+                    </div>
+                
+
+                  </div>
+                </div>
+            
+
+</div>
+
+              <!-- controller directions -->
+              <div class="poke-container__controllers">
+                
+                <!-- main direction grid styled controller for pokemon -->
+                <div class="controllers__direct-pad">
+
+                  <div class="direct-pad__cube top"></div>
+                  <div class="direct-pad__cube left"></div>
+                  <div class="direct-pad__cube middle"></div>
+                  <div class="direct-pad__cube right"></div>
+                  <div class="direct-pad__cube bottom"></div>
+                </div>
+                
+                <!-- main class attribute area for both buttons on the controller -->
+                <!-- for now I've just placed these as button A and B -->
+                <div class="controllers__buttons">
+                  <div class="buttons__button">B</div>
+                  <div class="buttons__button">A</div>
+                </div>
+              </div>
+</div>
+
+</div>
+
+</section>
+
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
