@@ -1,0 +1,275 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #A7C7E7;
+    display: flex;
+    font-family: sans-serif;
+    justify-content: center;
+  }
+  
+  .pokedex {
+    align-items: center;
+    display: flex;
+    height: 40rem;
+    margin: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  
+  /* main area container of handheld pokedex */
+
+  .poke-container {
+    border: 0.188rem solid pink;
+    background: palevioletred;
+    width: calc(40% + 60%);
+    margin-top: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5%;
+    box-shadow: 0.75rem 0.75rem 1.25rem 0.938rem rgb(0 0 255 / 52%);
+}
+  /* keep for styling on top area styling for gaming area */
+
+  .top-gaming-light {
+    border-bottom: 1rem solid pink;
+    display: flex;
+    height: auto;
+    padding: 1.5rem;
+  }
+  
+  .top-gaming-light__pink {
+    background: radial-gradient(farthest-corner at 10px 10px, #faf6f6, #ee07ba, #d01282);
+    border-radius: 50%;
+    border: 0.1rem solid white;
+    box-shadow: 0 0 2px 2px rgb(0 0 0 / 50%);
+    height: 1.875rem;
+    width: 1.875rem;
+  }
+  
+  .top-gaming-light__smaller-lights {
+    display: flex;
+    margin: 0 25px;
+  }
+  
+  .top-gaming-light__red,
+  .top-gaming-light__yellow,
+  .top-gaming-light__green {
+    border-radius: 50%;
+    border: 0.1rem solid white;
+    height: 1rem;
+    margin-right: 0.73rem;
+    width: 1rem;
+  }
+
+/* gaming light colours at the top of pokedex */
+
+  .top-gaming-light__red {
+    background: #7F100F;
+  }
+  
+  .top-gaming-light__yellow {
+    background: #EDF18E;
+  }
+  
+  .top-gaming-light__green {
+    background: #33915A;
+  }
+
+  .poke-container__game-container {
+    display: flex;
+    height: 24rem;
+    padding: 1.563rem;
+    width: auto;
+  }
+  
+.screen-border {
+    background: aqua;
+    border: 3px solid pink;
+    box-shadow: inset 0 0 3px 3px #f08ef1f7;
+  }
+  
+  /* distorted vision in pokedex styling */
+
+  .distorted-vision-screen {
+    height: calc(100% - 50px);
+    margin: 25px;
+    padding: 10px;
+    width: calc(100% - 50px); 
+    background-image: url(https://images.unsplash.com/photo-1627856013061-3da1dc64469e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80), radial-gradient(#00ff00, #000000), repeating-linear-gradient(transparent 0, rgba(0, 0, 0, 0.1) 2.5px, transparent 5px);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    animation-duration: 1s;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: forward;
+    animation-name: animate;
+
+  }
+
+  @keyframes animate {
+    0% {
+      background-image: url(https://images.unsplash.com/photo-1627856013061-3da1dc64469e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80), radial-gradient(#00ff00, #000000), repeating-linear-gradient(transparent 0, rgba(0, 0, 0, 0.1) 1.5px, transparent 5px);
+    }
+  
+    50% {
+      background-image: url(https://images.unsplash.com/photo-1627856013061-3da1dc64469e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80), radial-gradient(#00ff00, #000000), repeating-linear-gradient(transparent 0, rgba(0, 0, 0, 0.1) 4.5px, transparent 5px);
+    }
+  100% {
+      background-image: url(https://images.unsplash.com/photo-1627856013061-3da1dc64469e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80), radial-gradient(#00ff00, #000000), repeating-linear-gradient(transparent 0, rgba(0, 0, 0, 0.1) 2.5px, transparent 5px);
+    }
+  }
+  
+  
+
+  .main-screen {
+    border-radius: 15px;
+    height: 100%;
+    padding: 15px;
+  }
+
+  .screen__header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .poke-name {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .poke-id {
+    color: rgba(0,0,0,.5);
+    font-size: 20px;
+  }
+
+  .screen__description {
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+  }
+  
+  .screen__stats {
+    background: rgba(0,0,0,.3);
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    padding: 20px 15px;
+  }
+  
+  .stats__types {
+    height: 100%;
+    padding: 5px;
+  }
+
+  .poke-type-one,
+  .poke-type-two {
+    background: rgba(255,255,255,.3);
+    border-radius: 25px;
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+
+  }
+
+  .poke-container__controllers {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 25px 0;
+  }
+  
+  .controllers__direct-pad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  
+  .direct-pad__cube {
+    background: black;
+    box-shadow: 0 0 2px 2px rgba(0,0,0, .3);
+    height: 25px;
+    width: 25px;
+  }
+  
+  .direct-pad__cube.top {
+    border-left: 1px solid dimgrey;
+    border-radius: 5px 5px 0 0;
+    border-right: 1px solid dimgrey;
+    border-top: 1px solid dimgrey;
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+  }
+  
+  .direct-pad__cube.left {
+    border-bottom: 1px solid dimgrey;
+    border-left: 1px solid dimgrey;
+    border-radius: 5px 0 0 5px;
+    border-top: 1px solid dimgrey;
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+  }
+  
+  .direct-pad__cube.middle {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+  }
+  
+  .direct-pad__cube.right {
+    border-bottom: 1px solid dimgrey;
+    border-radius: 0 5px 5px 0;
+    border-right: 1px solid dimgrey;
+    border-top: 1px solid dimgrey;
+    grid-column: 3 / span 1;
+    grid-row: 2 / span 1;
+  }
+  
+  .direct-pad__cube.bottom {
+    border-bottom: 1px solid dimgrey;
+    border-left: 1px solid dimgrey;
+    border-radius: 0 0 5px 5px;
+    border-right: 1px solid dimgrey;
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 1;
+  }
+  
+  .controllers__buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+  }
+  
+  .buttons__button {
+    align-items: center;
+    background: aqua;
+    border-radius: 50%;
+    border: 0.2rem solid pink;
+    box-shadow: 0 0 2px 2px rgba(185, 33, 33, 0.37);
+    color: rgba(43, 31, 214, 0.829);
+    display: flex;
+    height: 2.188rem;
+    justify-content: center;
+    width: 2.188rem;
+  }
+  
+  .buttons__button:first-child {
+    margin-top: 5px;
+  }
+  
+  .buttons__button:last-child {
+     margin-top: -5px;
+   }
+  
+  
+  
