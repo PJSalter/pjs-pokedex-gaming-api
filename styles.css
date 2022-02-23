@@ -196,52 +196,95 @@
     grid-template-rows: repeat(3, 1fr);
   }
   
+  /* directional pad */
+
   .direct-pad__cube {
-    background: black;
-    box-shadow: 0 0 2px 2px rgba(0,0,0, .3);
+    background: #b19cd9;
+    box-shadow: 0 0 2px 2px rgba(107, 28, 107, 0.3);
     height: 25px;
     width: 25px;
   }
   
   .direct-pad__cube.top {
-    border-left: 1px solid dimgrey;
+    border-left: 1px solid #defde0;
     border-radius: 5px 5px 0 0;
-    border-right: 1px solid dimgrey;
-    border-top: 1px solid dimgrey;
+    border-right: 1px solid  #defde0;
+    border-top: 1px solid  #defde0;
     grid-column: 2 / span 1;
     grid-row: 1 / span 1;
+    cursor: pointer;
+  }
+
+  .direct-pad__cube.top:active{
+    background-color: #FDFD96;
+    transform: translateY(0.125rem);
+  }
+  .direct-pad__cube.top:hover{
+    background-color: #FDFD96;
   }
   
   .direct-pad__cube.left {
-    border-bottom: 1px solid dimgrey;
-    border-left: 1px solid dimgrey;
+    border-bottom: 1px solid  #defde0;
+    border-left: 1px solid  #defde0;
     border-radius: 5px 0 0 5px;
-    border-top: 1px solid dimgrey;
+    border-top: 1px solid  #defde0;
     grid-column: 1 / span 1;
     grid-row: 2 / span 1;
+    cursor: pointer;
+  }
+
+  .direct-pad__cube.left:active {
+    background-color: #FDFD96;
+    transform: translateY(0.125rem);
+  }
+
+  .direct-pad__cube.left:hover {
+    background-color: #FDFD96;
   }
   
   .direct-pad__cube.middle {
     grid-column: 2 / span 1;
     grid-row: 2 / span 1;
   }
+  .direct-pad__cube.middle:hover {
+    background-color: #FDFD96;
+  }
   
   .direct-pad__cube.right {
-    border-bottom: 1px solid dimgrey;
+    border-bottom: 1px solid  #defde0;
     border-radius: 0 5px 5px 0;
-    border-right: 1px solid dimgrey;
-    border-top: 1px solid dimgrey;
+    border-right: 1px solid  #defde0;;
+    border-top: 1px solid  #defde0;
     grid-column: 3 / span 1;
     grid-row: 2 / span 1;
+    cursor: pointer;
+  }
+
+  .direct-pad__cube.right:active {
+    background-color: #FDFD96;
+    transform: translateY(0.125rem);
+  }
+
+  .direct-pad__cube.right:hover {
+    background-color: #FDFD96;
   }
   
   .direct-pad__cube.bottom {
-    border-bottom: 1px solid dimgrey;
-    border-left: 1px solid dimgrey;
+    border-bottom: 1px solid  #defde0;
+    border-left: 1px solid  #defde0;
     border-radius: 0 0 5px 5px;
-    border-right: 1px solid dimgrey;
+    border-right: 1px solid  #defde0;
     grid-column: 2 / span 1;
     grid-row: 3 / span 1;
+    cursor: pointer;
+  }
+
+  .direct-pad__cube.bottom:active {
+    background-color: #FDFD96;
+    transform: translateY(0.125rem);
+  }
+  .direct-pad__cube.bottom:hover {
+    background-color: #FDFD96;
   }
   
   .controllers__buttons {
