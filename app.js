@@ -71,8 +71,10 @@ bottomPress.addEventListener('click', handleBottomButtonClick);
 
 //------------------------ Pikachu Rap Audio Play -----------------------//
 
+// DOM for pikachu Song to play
 const pikachuSong = document.getElementById("pikachuRap");
-const pressA = document.querySelector(".buttons__button");
+// DOM for picking up the button A
+const pressA = document.getElementById("pressPikachuA");
 
 pressA.addEventListener("click", function () {
    
