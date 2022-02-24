@@ -313,6 +313,17 @@
   .buttons__button:last-child {
      margin-top: -0.313rem;
    }
+
+   #pressPikachuA:active{
+     /* color to be a yellow to indicate pikachu once active. */
+    background-color:#d3b629;
+    /* transforming the button to push down once user clicks on button A. */
+    transform: translateY(0.313rem);
+   }
+   #pressPikachuA:hover{
+      /* color to be a yellow to indicate pikachu when user hovers over with mouse. */
+    background-color:#d3b629;
+   }
   
   
   

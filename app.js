@@ -69,3 +69,24 @@ bottomPress.addEventListener('click', handleBottomButtonClick);
 
 //handleRightButtonClick('pokemon')
 
+//------------------------ Pikachu Rap Audio Play -----------------------//
+
+// DOM for pikachu Song to play
+const pikachuSong = document.getElementById("pikachuRap");
+// DOM for picking up the button A
+const pressA = document.getElementById("pressPikachuA");
+
+//event listener that handles click on function once press A is commenced.
+pressA.addEventListener("click", function () {
+   
+    if(!pikachuSong.paused) { // statement to check if the song of pikachu is paused. and if it is then make an action.
+    pikachuSong.pause();  // so that user can pause whenever they feel like.
+    pikachuSong.currentTime = 0;  // to reset the song to the beginning.
+    }
+    else {
+        pikachuSong.play();  // to make the pikachu theme song play
+    }
+
+    // Once pikachu song plays there will not be any styling appearing.
+    pressA.style.display = none;
+})
