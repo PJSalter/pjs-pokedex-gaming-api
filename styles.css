@@ -313,6 +313,14 @@
   .buttons__button:last-child {
      margin-top: -0.313rem;
    }
+
+   #pressPikachuA:active{
+    background-color:#d3b629;
+    transform: translateY(0.313rem);
+   }
+   #pressPikachuA:hover{
+    background-color:#d3b629;
+   }
   
   
   
