@@ -76,6 +76,7 @@ const pikachuSong = document.getElementById("pikachuRap");
 // DOM for picking up the button A
 const pressA = document.getElementById("pressPikachuA");
 
+//event listener that handles click on function once press A is commenced.
 pressA.addEventListener("click", function () {
    
     if(!pikachuSong.paused) { // statement to check if the song of pikachu is paused. and if it is then make an action.
