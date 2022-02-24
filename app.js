@@ -73,3 +73,17 @@ bottomPress.addEventListener('click', handleBottomButtonClick);
 
 const pikachuSong = document.getElementById("pikachuRap");
 const pressA = document.querySelector(".buttons__button");
+
+pressA.addEventListener("click", function () {
+   
+    if(!pikachuSong.paused) { // statement to check if the song of pikachu is paused. and if it is then make an action.
+    pikachuSong.pause();  // so that user can pause whenever they feel like.
+    pikachuSong.currentTime = 0;  // to reset the song to the beginning.
+    }
+    else {
+        pikachuSong.play();  // to make the pikachu theme song play
+    }
+
+    // Once pikachu song plays there will not be any styling appearing.
+    pressA.style.display = none;
+})
