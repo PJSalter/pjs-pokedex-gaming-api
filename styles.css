@@ -11,7 +11,7 @@
     justify-content: center;
   }
   
-  .pokedex {
+  .pokedex-wrap {
     align-items: center;
     display: flex;
     height: 40rem;
