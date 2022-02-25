@@ -6,6 +6,7 @@
   
   body {
     background-color: #A7C7E7;
+    margin-bottom: 10rem;
     display: flex;
     font-family: sans-serif;
     justify-content: center;
@@ -13,13 +14,15 @@
 
   .pokeTitle{
     font-family: 'Press Start 2P', cursive;
+    padding: 2rem;
+    text-align: center;
   }
   
   .pokedex-wrap {
     align-items: center;
     display: flex;
-    height: 40rem;
-    margin: 30rem;
+    height: 28rem;
+    margin: 1rem;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
