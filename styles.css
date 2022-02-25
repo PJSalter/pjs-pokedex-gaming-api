@@ -12,10 +12,35 @@
     justify-content: center;
   }
 
-  .pokeTitle{
+  #pokeTitle{
     font-family: 'Press Start 2P', cursive;
     padding: 2rem;
     text-align: center;
+    margin-top: 4rem;
+  }
+
+  .pulse-with-red {
+    color: #ee07baab;
+    background-color: #FDFD96;
+    box-shadow: -12px -7px 20px 20px #ee07ba;
+    animation: pulse-red 1s infinite;
+  }
+  
+  @keyframes pulse-red {
+    0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 #ee07ba;
+    }
+    
+    70% {
+      transform: scale(1.4);
+      box-shadow: 0 0 0 10px #ee07ba7a;
+    }
+    
+    100% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 #ee07ba;
+    }
   }
   
   .pokedex-wrap {
