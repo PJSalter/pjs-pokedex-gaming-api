@@ -90,3 +90,14 @@ pressA.addEventListener("click", function () {
     // Once pikachu song plays there will not be any styling appearing.
     pressA.style.display = none;
 })
+
+// ---------------------------- B button audio functioning --------------------- //
+
+// DOM for various pokemon characters to play voices.
+const diglettAudio = document.getElementById("diglett");
+const bulbasaurAudio = document.getElementById("bulbasaur");
+const goldeenAudio = document.getElementById("goldeen");
+const meowthAudio = document.getElementById("meowth");
+const squirtleAudio = document.getElementById("squirtle");
+const psyduckAudio = document.getElementById("psyduck");
+const pidgeyAudio = document.getElementById("pidgey");
