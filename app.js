@@ -94,13 +94,31 @@ pressA.addEventListener("click", function () {
 // ---------------------------- B button audio functioning --------------------- //
 
 // DOM for various pokemon characters to play voices.
-const diglettAudio = document.getElementById("diglett");
-const bulbasaurAudio = document.getElementById("bulbasaur");
-const goldeenAudio = document.getElementById("goldeen");
-const meowthAudio = document.getElementById("meowth");
-const squirtleAudio = document.getElementById("squirtle");
-const psyduckAudio = document.getElementById("psyduck");
-const pidgeyAudio = document.getElementById("pidgey");
+//const diglettAudio = document.getElementById("diglett");
+//const bulbasaurAudio = document.getElementById("bulbasaur");
+//const goldeenAudio = document.getElementById("goldeen");
+//const meowthAudio = document.getElementById("meowth");
+//const squirtleAudio = document.getElementById("squirtle");
+//const psyduckAudio = document.getElementById("psyduck");
+//const pidgeyAudio = document.getElementById("pidgey");
+
+// array of sound effects, this has all the id attributes from each pokemon.
+const sounds = ['diglett', 'bulbasaur', 'goldeen', 'meowth', 'squirtle', 'psyduck', 'pidgey' ];
+console.log(sounds);
 
 // DOM for picking up the button B
 const pressB = document.getElementById("pressAudioB");
+
+  // randomising the audio so that they play in randomised order in button B.
+  
+  const randomSounds = () => {
+    let index = Math.floor(Math.random() * 1000) % sounds.length;
+    let id = sounds[index];
+    let audioElement = document.getElementById(id)
+    //console.log(audioElement.play())
+    return audioElement.play();
+  }
+
+// once user clicks buttom B then the handler will cause the function to play the pokemon voice audio.
+pressB.addEventListener('click', randomSounds);
+//randomSounds()
