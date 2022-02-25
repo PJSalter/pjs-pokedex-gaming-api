@@ -6,16 +6,48 @@
   
   body {
     background-color: #A7C7E7;
+    margin-bottom: 10rem;
     display: flex;
     font-family: sans-serif;
     justify-content: center;
   }
+
+  #pokeTitle{
+    font-family: 'Press Start 2P', cursive;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 4rem;
+  }
+
+  .pulse-with-pink {
+    color: #ee07baab;
+    background-color: #FDFD96;
+    box-shadow: -12px -7px 20px 20px #ee07ba;
+    animation: pink-pulse 1s infinite;
+  }
   
-  .pokedex {
+  @keyframes pink-pulse {
+    0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 #ee07ba;
+    }
+    
+    70% {
+      transform: scale(1.4);
+      box-shadow: 0 0 0 10px #ee07ba7a;
+    }
+    
+    100% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 #ee07ba;
+    }
+  }
+  
+  .pokedex-wrap {
     align-items: center;
     display: flex;
-    height: 40rem;
-    margin: 30rem;
+    height: 28rem;
+    margin: 1rem;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
