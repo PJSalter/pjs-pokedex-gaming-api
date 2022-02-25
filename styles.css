@@ -10,6 +10,10 @@
     font-family: sans-serif;
     justify-content: center;
   }
+
+  .pokeTitle{
+    font-family: 'Press Start 2P', cursive;
+  }
   
   .pokedex-wrap {
     align-items: center;
