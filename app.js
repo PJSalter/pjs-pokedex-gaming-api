@@ -101,3 +101,6 @@ const meowthAudio = document.getElementById("meowth");
 const squirtleAudio = document.getElementById("squirtle");
 const psyduckAudio = document.getElementById("psyduck");
 const pidgeyAudio = document.getElementById("pidgey");
+
+// DOM for picking up the button B
+const pressB = document.getElementById("pressAudioB");
