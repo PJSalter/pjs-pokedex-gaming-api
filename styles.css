@@ -348,7 +348,7 @@
 
    #pressPikachuA:active{
      /* pokemon red for text */
-    color: #CC0000;
+    color: #CC0000; 
      /* color to be a yellow to indicate pikachu once active. */
     background-color: #FFDE00;
     /* transforming the button to push down once user clicks on button A. */
@@ -356,11 +356,12 @@
    }
    #pressPikachuA:hover{
      /* pokemon red text once hover */
-     color: #CC0000;
+     color: #CC0000; 
       /* color to be a yellow to indicate pikachu when user hovers over with mouse. */
     background-color:#FFDE00;
    }
-
+   
+   /* b button animation */
    #pressAudioB:active{
     /* pokemon yellow */
     color: #FFDE00;
@@ -369,13 +370,12 @@
     /*animation once user pushes button B. */
     transform: translateY(0.313rem);
    }
-
    #pressAudioB:hover{
      /* pokemon yellow once hover */
      color: #FFDE00;
      /* background pokemon red for background */
      background-color: #FF0000;
-   }
+    }
   
   
   
