@@ -356,6 +356,15 @@
       /* color to be a yellow to indicate pikachu when user hovers over with mouse. */
     background-color:#d3b629;
    }
+
+   #pressAudioB{
+    /* pokemon blue */
+    color: #3B4CCA;
+    /* pokemon red colour. */
+    background-color: #FF0000;
+    /*animation once user pushes button B. */
+    transform: translateY(0.313rem);
+   }
   
   
   
