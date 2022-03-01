@@ -357,9 +357,9 @@
     background-color:#d3b629;
    }
 
-   #pressAudioB{
+   #pressAudioB:active{
     /* pokemon blue */
-    color: #3B4CCA;
+    color: #FFDE00;
     /* pokemon red colour. */
     background-color: #FF0000;
     /*animation once user pushes button B. */
