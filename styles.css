@@ -369,6 +369,12 @@
     /*animation once user pushes button B. */
     transform: translateY(0.313rem);
    }
+
+   #pressAudioB:hover{
+     /* pokemon yellow once hover */
+
+     /* background pokemon red for background */
+   }
   
   
   
