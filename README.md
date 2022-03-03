@@ -10,7 +10,10 @@ Still in Progress ⭐ [![PikachuWalk](https://emoji.gg/assets/emoji/6921-pikachu
 - [x] CSS animation for button and directional pad in interactivity controls.
 - [x] Audio feature of Pokemon voice Audio with randomise functioning on Button B.
 - [x] Pikachu Rap Song that plays once User clicks on Button A.
+- [x] Distorted screen animation effect.
+- [ ] As user moves left, right, up, down on directional pad, it will move through data of Pokemon
 - [ ] Using Pokemon API for fetching data with promises.
+- [x] Hosted on Git Hub Pages.
 
 
 <div align="center">
