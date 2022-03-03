@@ -4,6 +4,15 @@ Still in Progress ⭐ [![PikachuWalk](https://emoji.gg/assets/emoji/6921-pikachu
 
 [Click to see Pokedex](https://pjsalter.github.io/pjs-pokedex-gaming-api/) 
 
+- [x] HTML structure.
+- [x] Pulse animation for main title and gamining font.
+- [x] CSS for styling PokeDex. 
+- [x] CSS animation for button and directional pad in interactivity controls.
+- [x] Audio feature of Pokemon voice Audio with randomise functioning on Button B.
+- [x] Pikachu Rap Song that plays once User clicks on Button A.
+- [ ] Using Pokemon API for fetching data with promises.
+
+
 <div align="center">
   
 ![pokeball](https://cdn.emojidex.com/emoji/seal/pokeball.png "pokeball")
