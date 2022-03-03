@@ -15,6 +15,7 @@ Still in Progress ⭐ [![PikachuWalk](https://emoji.gg/assets/emoji/6921-pikachu
 - [x] Audio feature of Pokemon voice Audio with randomise functioning on Button B.
 - [x] Pikachu Rap Song that plays once User clicks on Button A.
 - [x] Distorted screen animation effect.
+- [x] Start of JavaScript functionality for buttons.
 - [ ] As user moves left, right, up, down on directional pad, it will move through data of Pokemon
 - [ ] Using Pokemon API for fetching data with promises.
 - [ ] Input information to change the displayed result.
