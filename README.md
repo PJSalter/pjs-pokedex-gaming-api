@@ -4,6 +4,26 @@ Still in Progress ⭐ [![PikachuWalk](https://emoji.gg/assets/emoji/6921-pikachu
 
 [Click to see Pokedex](https://pjsalter.github.io/pjs-pokedex-gaming-api/) 
 
+# User Story:
+
+- [ ] First plan Diagram added to readme.
+- [ ] Clear Design Journey in readme.
+- [x] HTML structure.
+- [x] Pulse animation for main title and gamining font.
+- [x] CSS for styling PokeDex. 
+- [x] CSS animation for button and directional pad in interactivity controls.
+- [x] Audio feature of Pokemon voice Audio with randomise functioning on Button B.
+- [x] Pikachu Rap Song that plays once User clicks on Button A.
+- [x] Distorted screen animation effect.
+- [x] Start of JavaScript functionality for buttons.
+- [ ] As user moves left, right, up, down on directional pad, it will move through data of Pokemon
+- [ ] Using Pokemon API for fetching data with promises.
+- [ ] Input information to change the displayed result.
+- [ ] promise.all() code created.
+- [ ] View the app on all of my devices especially mobile reponsive.
+- [ ] Ensure your app is accessible to as many different users as possible.
+- [x] Hosted on Git Hub Pages.
+
 <div align="center">
   
 ![pokeball](https://cdn.emojidex.com/emoji/seal/pokeball.png "pokeball")
